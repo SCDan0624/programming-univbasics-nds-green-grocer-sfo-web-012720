@@ -79,4 +79,6 @@ def checkout(cart, coupons)
   consolidated_cart = consolidated_cart(cart)
   couponed_cart = apply_coupons(consolidated_cart,coupons)
   final_cart = apply_clearance(couponed_cart)
+  
+  find_item_by_name_in_collection = 0 
 end
